@@ -7,11 +7,6 @@ Converts [GeoJSON](http://geojson.org/) to [GPX](http://www.topografix.com/gpx.a
 
 Usage
 -----
-
-* as a command line tool:
-  
-        $ npm install -g togpx
-        $ togpx file.geojson > file.gpx
   
 * as a nodejs library:
   
@@ -20,12 +15,6 @@ Usage
         var togpx = require('togpx');
         togpx(geojson_data);
   
-* as a browser library:
-  
-        <script src='togpx.js'></script>
-  
-        togpx(geojson_data);
-
 API
 ---
 

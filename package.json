@@ -4,13 +4,9 @@
   "description": "convert geojson to gpx",
   "main": "index.js",
   "scripts": {
-    "pretest": "npm ls --depth=Infinity > /dev/null",
     "test": "npm run test-node && npm run test-webkit",
     "test-node": "mocha -R spec",
     "test-webkit": "mocha-phantomjs test/index.html"
-  },
-  "bin": {
-    "togpx": "togpx"
   },
   "repository": {
     "type": "git",
